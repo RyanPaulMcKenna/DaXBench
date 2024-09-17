@@ -7,7 +7,7 @@ import numpy as np
 import optax
 from jax import custom_vjp, random, vmap
 from jax._src.lax.control_flow import fori_loop
-from jax.random import KeyArray
+from jax._src.random import KeyArray
 
 
 class ClothState(NamedTuple):
